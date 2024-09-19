@@ -50,14 +50,11 @@
   </a>
 </div>
 
-<br>
+<br/>
 <h2 align="center">👽 Where to find me 👽</h2>
-<br>
+<br/>
 <!-- https://icons8.com -->
 <div align="center">
-  <a href="https://anhdungdev23.vercel.app" target="blank">
-    <img width="90" height="90" src="images/logo-PhamAnhDungdev-transparent-bg-192x192.png" alt="PhamAnhDungdev-cv" />
-  </a>
   <a href="https://facebook.com/PhamAnhDung.Dev19" target="blank">
     <img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" alt="PhamAnhDungdev-facebook" />
   </a>
