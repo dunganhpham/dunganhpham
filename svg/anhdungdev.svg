@@ -62,7 +62,7 @@
           margin-left: 70px;
           white-space: nowrap;
           font-family: "Bungee Spice";
-          background: linear-gradient(to right, #6CABDD, #FF0000);
+          background: linear-gradient(to right,#FFFFFF, #6CABDD);
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
         }
