@@ -51,17 +51,17 @@
 </div>
 
 <br/>
-<h2 align="center">👽 Where to find me 👽</h2>
+<h2 align="center">👽 Hello Anh Em 👽</h2>
 <br/>
 <!-- https://icons8.com -->
 <div align="center">
   <a href="https://facebook.com/PhamAnhDung.Dev19" target="blank">
     <img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" alt="PhamAnhDungdev-facebook" />
   </a>
-  <a href="https://www.linkedin.com/in/trungquandev" target="blank">
+  <a href="https://www.linkedin.com/in/PhamAnhDungDev19" target="blank">
     <img src="https://img.icons8.com/bubbles/100/000000/linkedin.png" alt="PhamAnhDungdev-linkedin" />
   </a>
-  <a href="https://instagram.com/trungquandev" target="blank">
+  <a href="https://www.instagram.com/phamhdung222" target="blank">
     <img src="https://img.icons8.com/bubbles/100/000000/instagram.png" alt="PhamAnhDungdev-instagram" />
   </a>
   <a href="mailto:phamdung2672004@gmail.com" target="top">
