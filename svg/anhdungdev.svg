@@ -55,14 +55,14 @@
         .greeting {
           overflow: hidden;
           font-weight: bold;
-					font-size: 36px;
+					font-size: 68px;
 					line-height: 1.3;
 					letter-spacing: 5px;
           animation:  typing 5s forwards;
           margin-left: 70px;
           white-space: nowrap;
           font-family: "Bungee Spice";
-          background: linear-gradient(to right,#FFFFFF, #6CABDD);
+          background: linear-gradient(to right,#FFFFFF,rgb(147, 7, 49));
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
         }
@@ -78,12 +78,20 @@
         .skills_icon.nodejs>img {
           width: 74px;
         }
+        .gif{
+          width: 200px;
+          height: 200px;
+          animation: rotate 3s linear infinite;
+          position: absolute;
+          bottom: 0px;
+          left: 0px;
+        }
 			</style>
 
 			<div class="container">
         <div class="earth"></div>
 				<div class="greeting">
-          PERSONAL PAGE<br/>PhamAnhDungdev - Github <br/>
+          <br/>Pham Anh Dung Dev <br/>
         </div>
         <br/>
         <div class="skills">

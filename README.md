@@ -1,11 +1,9 @@
 <!-- Trungquandev -->
-<!-- <a href="#" target="_blank">
+# Pham Anh Dung
+<a href="#" target="_blank">
   <img src="svg/anhdungdev.svg" width="1200" alt="PhamAnhDungdev-Real" />
-</a> -->
-<div align="center" style="position: relative; width: 100%; margin: 0 auto;">
-    <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdDZweXB5ZWwyOTRvNjdic3AzcjJwM3lxNWYwZWExdTdxbjhua2h6YyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KX5nwoDX97AtPvKBF6/giphy.gif" alt="GIF 2" style="width: 100%; height: auto;">
-    <img src="https://media.giphy.com/media/gjrYDwbjnK8x36xZIO/giphy.gif" alt="GIF 1" style="position: absolute; bottom: 0px; left: 10px; width: 30%; height: auto;">
-</div>
+</a>
+<img width="100%" src="https://media.giphy.com/media/gjrYDwbjnK8x36xZIO/giphy.gif" >
 
 <h2 align="center">Technologies and Tools</h2>
 <br>
@@ -108,7 +106,7 @@
 <h2 align="center"> Contact </h2>
 <br> -->
 <!-- https://icons8.com -->
-<!-- <div align="center">
+ <!-- <div align="center">
   <a href="https://facebook.com/PhamAnhDung.Dev19" target="blank">
     <img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" alt="PhamAnhDungdev-facebook" />
   </a>
