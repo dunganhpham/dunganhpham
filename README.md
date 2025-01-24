@@ -9,65 +9,13 @@
   </div>
   
   <!-- Phần giới thiệu bên phải với animation -->
-  <div class="intro">
-    <h2>Pham Anh Dung</h2>
-    <p>Fullstack Developer</p>
-  </div>
+  <div style="background-color: #000; color: white; padding: 20px; border-radius: 10px;">
+  <h2>Pham Anh Dung</h2>
+  <p>Fullstack Developer</p>
 </div>
 
-<!-- CSS animation -->
-<style>
-  .intro {
-    flex: 1;
-    text-align: left;
-    padding: 20px;
-    border-radius: 10px;
-    opacity: 0;
-    transform: scale(0.8) translateY(20px); /* Bắt đầu từ trạng thái nhỏ và dịch xuống */
-    animation: fadeInZoom 1.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
-  }
+</div>
 
-  .intro h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2.5em;
-    color: #fff;
-    margin-bottom: 10px;
-    animation: slideIn 1.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
-  }
-
-  .intro p {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.3em;
-    color: #fff;
-    animation: slideIn 1.5s cubic-bezier(0.4, 0, 0.2, 1) 0.3s forwards;
-  }
-
-  @keyframes fadeInZoom {
-    0% {
-      opacity: 0;
-      transform: scale(0.8) translateY(20px); /* Nhỏ hơn và ở phía dưới */
-    }
-    50% {
-      opacity: 0.5;
-      transform: scale(1.05); /* Lớn hơn một chút */
-    }
-    100% {
-      opacity: 1;
-      transform: scale(1) translateY(0); /* Trở về kích thước ban đầu và vị trí */
-    }
-  }
-
-  @keyframes slideIn {
-    0% {
-      opacity: 0;
-      transform: translateX(-20px); /* Dịch từ trái sang */
-    }
-    100% {
-      opacity: 1;
-      transform: translateX(0); /* Trở về vị trí ban đầu */
-    }
-  }
-</style>
 
 
 
