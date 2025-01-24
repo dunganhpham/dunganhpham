@@ -1,9 +1,7 @@
-<!-- Trungquandev -->
-# Pham Anh Dung
 <a href="#" target="_blank">
   <img src="svg/anhdungdev.svg" width="1200" alt="PhamAnhDungdev-Real" />
 </a>
-<img width="100%" src="https://media.giphy.com/media/gjrYDwbjnK8x36xZIO/giphy.gif" >
+<!-- <img width="100%" src="https://media.giphy.com/media/gjrYDwbjnK8x36xZIO/giphy.gif" > -->
 
 <h2 align="center">Technologies and Tools</h2>
 <br>
