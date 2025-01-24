@@ -5,13 +5,7 @@
 <div style="display: flex; justify-content: center; align-items: center; gap: 20px; background-color: #000; padding: 20px; border-radius: 10px; color: white; font-family: Arial;">
   <!-- Hình ảnh GIF -->
   <div style="flex: 1; display: flex; justify-content: center; align-items: center;">
-    <img src="https://media.giphy.com/media/gjrYDwbjnK8x36xZIO/giphy.gif?cid=ecf05e47j41h1ipnit43wtcno6mz9ir69rbh8bm0hprwi561&ep=v1_gifs_related&rid=giphy.gif&ct=s" alt="GIF" style="width: 70%; height: auto; border-radius: 10px;">
-  </div>
-  
-  <!-- Phần giới thiệu -->
-  <div style="flex: 1; text-align: left; padding: 20px;">
-    <h2 style="font-size: 2em; margin-bottom: 10px;">Pham Anh Dung</h2>
-    <p style="font-size: 1.2em;">Fullstack Developer</p>
+    <img src="https://media.giphy.com/media/gjrYDwbjnK8x36xZIO/giphy.gif?cid=ecf05e47j41h1ipnit43wtcno6mz9ir69rbh8bm0hprwi561&ep=v1_gifs_related&rid=giphy.gif&ct=s" alt="GIF" style="width: 100%; height: auto; border-radius: 10px;">
   </div>
 </div>
 
