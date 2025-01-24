@@ -2,19 +2,19 @@
 <!-- <a href="#" target="_blank">
   <img src="svg/anhdungdev.svg" width="1200" alt="PhamAnhDungdev-Real" />
 </a> -->
-<div style="display: flex; justify-content: center; align-items: center; height: auto; gap: 20px; background-color: #000; padding: 20px; border-radius: 10px;">
-  <!-- Phần hình ảnh GIF -->
+<div style="display: flex; justify-content: center; align-items: center; gap: 20px; background-color: #000; padding: 20px; border-radius: 10px; color: white; font-family: Arial;">
+  <!-- Hình ảnh GIF -->
   <div style="flex: 1; display: flex; justify-content: center; align-items: center;">
     <img src="https://media.giphy.com/media/gjrYDwbjnK8x36xZIO/giphy.gif?cid=ecf05e47j41h1ipnit43wtcno6mz9ir69rbh8bm0hprwi561&ep=v1_gifs_related&rid=giphy.gif&ct=s" alt="GIF" style="width: 70%; height: auto; border-radius: 10px;">
   </div>
   
-  <!-- Phần giới thiệu bên phải với animation -->
-  <div style="background-color: #000; color: white; padding: 20px; border-radius: 10px;">
-  <h2>Pham Anh Dung</h2>
-  <p>Fullstack Developer</p>
+  <!-- Phần giới thiệu -->
+  <div style="flex: 1; text-align: left; padding: 20px;">
+    <h2 style="font-size: 2em; margin-bottom: 10px;">Pham Anh Dung</h2>
+    <p style="font-size: 1.2em;">Fullstack Developer</p>
+  </div>
 </div>
 
-</div>
 
 
 
