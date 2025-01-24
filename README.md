@@ -3,8 +3,7 @@
   <img src="svg/anhdungdev.svg" width="1200" alt="PhamAnhDungdev-Real" />
 </a> -->
 | <img src="https://media.giphy.com/media/gjrYDwbjnK8x36xZIO/giphy.gif" alt="GIF 1"> | <img src="https://media.giphy.com/media/V4NSR1NG2p0KeJJyr5/giphy.gif" alt="GIF 2" width="200"> |
-|:--------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------:|
-
+|:---:|:---:|
 
 <h2 align="center">Technologies and Tools</h2>
 <br>
