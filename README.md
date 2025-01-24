@@ -2,8 +2,10 @@
 <!-- <a href="#" target="_blank">
   <img src="svg/anhdungdev.svg" width="1200" alt="PhamAnhDungdev-Real" />
 </a> -->
-| <img src="https://media.giphy.com/media/gjrYDwbjnK8x36xZIO/giphy.gif" alt="GIF 1"> | <img src="https://media.giphy.com/media/V4NSR1NG2p0KeJJyr5/giphy.gif" alt="GIF 2" width="200"> |
-|:---:|:---:|
+<div align="center">
+    <img src="https://media.giphy.com/media/gjrYDwbjnK8x36xZIO/giphy.gif" alt="GIF 1" width="45%" style="margin-right: 10px;">
+    <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdDZweXB5ZWwyOTRvNjdic3AzcjJwM3lxNWYwZWExdTdxbjhua2h6YyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KX5nwoDX97AtPvKBF6/giphy.gif" alt="GIF 2" width="45%" style="margin-left: 10px;">
+</div>
 
 <h2 align="center">Technologies and Tools</h2>
 <br>
