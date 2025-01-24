@@ -2,9 +2,9 @@
 <!-- <a href="#" target="_blank">
   <img src="svg/anhdungdev.svg" width="1200" alt="PhamAnhDungdev-Real" />
 </a> -->
-<div align="center">
-    <img src="https://media.giphy.com/media/gjrYDwbjnK8x36xZIO/giphy.gif" alt="GIF 1" width="45%" style="margin-right: 10px;">
-    <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdDZweXB5ZWwyOTRvNjdic3AzcjJwM3lxNWYwZWExdTdxbjhua2h6YyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KX5nwoDX97AtPvKBF6/giphy.gif" alt="GIF 2" width="45%" style="margin-left: 10px;">
+<div align="center" style="position: relative; width: 100%; max-width: 800px; margin: 0 auto;">
+    <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdDZweXB5ZWwyOTRvNjdic3AzcjJwM3lxNWYwZWExdTdxbjhua2h6YyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KX5nwoDX97AtPvKBF6/giphy.gif" alt="GIF 2" style="width: 100%; height: auto;">
+    <img src="https://media.giphy.com/media/gjrYDwbjnK8x36xZIO/giphy.gif" alt="GIF 1" style="position: absolute; bottom: 0px; left: 10px; width: 30%; height: auto;">
 </div>
 
 <h2 align="center">Technologies and Tools</h2>
