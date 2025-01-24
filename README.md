@@ -2,17 +2,8 @@
 <!-- <a href="#" target="_blank">
   <img src="svg/anhdungdev.svg" width="1200" alt="PhamAnhDungdev-Real" />
 </a> -->
-<div style="display: flex; justify-content: center; align-items: center; gap: 20px; background-color: #000; padding: 20px; border-radius: 10px; color: white; font-family: Arial;">
-  <!-- Hình ảnh GIF -->
-  <div style="flex: 1; display: flex; justify-content: center; align-items: center;">
-    <img src="https://media.giphy.com/media/gjrYDwbjnK8x36xZIO/giphy.gif?cid=ecf05e47j41h1ipnit43wtcno6mz9ir69rbh8bm0hprwi561&ep=v1_gifs_related&rid=giphy.gif&ct=s" alt="GIF" style="width: 100%; height: auto; border-radius: 10px;">
-  </div>
-  <div style="flex: 1; display: flex; justify-content: center; align-items: center;">
-    <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ3lzeGdqNDdyaXM3aTZwZHFheDc1OHIyYzY1NDdnbHltdnFra2VtdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/V4NSR1NG2p0KeJJyr5/giphy.gif" alt="GIF" style="width: 100%; height: auto; border-radius: 5px;">
-  </div>
-</div>
-
-
+| ![GIF 1](https://media.giphy.com/media/gjrYDwbjnK8x36xZIO/giphy.gif) | ![GIF 2](https://media.giphy.com/media/V4NSR1NG2p0KeJJyr5/giphy.gif) |
+|:--------------------------------------------------------------------:|:--------------------------------------------------------------------:|
 
 
 
