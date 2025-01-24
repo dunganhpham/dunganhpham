@@ -2,20 +2,74 @@
 <!-- <a href="#" target="_blank">
   <img src="svg/anhdungdev.svg" width="1200" alt="PhamAnhDungdev-Real" />
 </a> -->
-<div style="display: flex; justify-content: center; align-items: center; height: auto; gap: 20px;">
+<div style="display: flex; justify-content: center; align-items: center; height: auto; gap: 20px; background-color: #000; padding: 20px; border-radius: 10px;">
+  <!-- Phần hình ảnh GIF -->
   <div style="flex: 1; display: flex; justify-content: center; align-items: center;">
-    <img src="https://media.giphy.com/media/gjrYDwbjnK8x36xZIO/giphy.gif?cid=ecf05e47j41h1ipnit43wtcno6mz9ir69rbh8bm0hprwi561&ep=v1_gifs_related&rid=giphy.gif&ct=s" alt="GIF" style="width: 70%; height: auto; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+    <img src="https://media.giphy.com/media/gjrYDwbjnK8x36xZIO/giphy.gif?cid=ecf05e47j41h1ipnit43wtcno6mz9ir69rbh8bm0hprwi561&ep=v1_gifs_related&rid=giphy.gif&ct=s" alt="GIF" style="width: 70%; height: auto; border-radius: 10px;">
   </div>
-  <div style="flex: 1; text-align: center; padding: 20px;">
-  <h1 style="font-family: 'Montserrat', sans-serif; font-size: 3em; color: #4A90E2; font-weight: bold; letter-spacing: 1px; text-transform: uppercase; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);">
-    Personal GitHub Page!
-  </h1>
-  <p style="font-family: 'Roboto', sans-serif; font-size: 1.4em; color: #333; font-weight: 300; line-height: 1.6; margin-top: 10px;">
-    Enjoy, Explore, Learn
-  </p>
+  
+  <!-- Phần giới thiệu bên phải với animation -->
+  <div class="intro">
+    <h2>Pham Anh Dung</h2>
+    <p>Fullstack Developer</p>
+  </div>
 </div>
 
-</div>
+<!-- CSS animation -->
+<style>
+  .intro {
+    flex: 1;
+    text-align: left;
+    padding: 20px;
+    border-radius: 10px;
+    opacity: 0;
+    transform: scale(0.8) translateY(20px); /* Bắt đầu từ trạng thái nhỏ và dịch xuống */
+    animation: fadeInZoom 1.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+  }
+
+  .intro h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5em;
+    color: #fff;
+    margin-bottom: 10px;
+    animation: slideIn 1.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+  }
+
+  .intro p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3em;
+    color: #fff;
+    animation: slideIn 1.5s cubic-bezier(0.4, 0, 0.2, 1) 0.3s forwards;
+  }
+
+  @keyframes fadeInZoom {
+    0% {
+      opacity: 0;
+      transform: scale(0.8) translateY(20px); /* Nhỏ hơn và ở phía dưới */
+    }
+    50% {
+      opacity: 0.5;
+      transform: scale(1.05); /* Lớn hơn một chút */
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1) translateY(0); /* Trở về kích thước ban đầu và vị trí */
+    }
+  }
+
+  @keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateX(-20px); /* Dịch từ trái sang */
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0); /* Trở về vị trí ban đầu */
+    }
+  }
+</style>
+
+
 
 <h2 align="center">Technologies and Tools</h2>
 <br>
@@ -79,6 +133,7 @@
 <span><img src="https://img.shields.io/badge/SQL%20Server-282C34?logoColor=CC2927" alt="SQLServer logo" title="SQLServer" height="25" /></span>
 &nbsp;
 
+
 <!-- Other tool -->
 
 <span><img src="https://img.shields.io/badge/git-282C34?logo=git&logoColor=F05032" alt="git logo" title="git" height="25" /></span>
@@ -96,6 +151,8 @@
 <span><img src="https://img.shields.io/badge/DBeaver-282C34?logo=dbeaver&logoColor=9B8B7B" alt="DBeaver logo" title="DBeaver" height="25" /></span>
 &nbsp;
 <span><img src="https://img.shields.io/badge/Firebase-282C34?logo=firebase&logoColor=FFCA28" alt="Firebase logo" title="Firebase" height="25" /></span>
+&nbsp;
+<span><img src="https://img.shields.io/badge/Redis-282C34?logo=redis&logoColor=white" alt="Redis Badge" height="25"></span>
 &nbsp;
 <br>
 
