@@ -123,20 +123,6 @@
           align-items: center;
           flex-wrap: wrap;
         }
-
-        .description-link {
-          display: inline-block;
-          margin-top: 15px;
-          color: #1BFFFF;
-          text-decoration: none;
-          font-weight: 500;
-          transition: color 0.3s ease;
-        }
-
-        .description-link:hover {
-          color: #D4145A;
-          text-decoration: underline;
-        }
 			</style>
 
 			<div class="container">
@@ -144,11 +130,10 @@
 				<div class="greeting">
           PHAM ANH DUNG<br/>
         </div>
-  <div class="description">
-  <span class="description-title">About Me</span>
-  <p class="description-text">Full-Stack Engineer with expertise in JavaScript frameworks for frontend and .NET, Java, NodeJS and Golang for backend development. Specializes in comprehensive software application architecture and implementation.</p>
-  <a href="https://dungpa.vercel.app/" class="description-link">Redirect</a>
-</div>
+        <div class="description">
+          <span class="description-title">About Me</span>
+            <p class="description-text">Full-Stack Engineer with expertise in JavaScript frameworks for frontend and .NET, Java, NodeJS and Golang for backend development. Specializes in comprehensive software application architecture and implementation.</p>      
+        </div>
 			</div>
 		</div>
 	</foreignObject>
