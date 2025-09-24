@@ -39,8 +39,8 @@
           background-size: cover;
           border: 2px solid #000;
           border-radius: 50%;
-          width: 400px;
-          height: 400px;
+          width: 250px;
+          height: 250px;
           animation: spinAround 10s linear 0s infinite alternate;
           box-shadow: 0 0 25px RGBA(255,255,255, 0.25),
                     -8px -8px 15px #000 inset,
@@ -55,7 +55,6 @@
         .container {
           display: flex;
           flex-direction: column;
-          align-items: flex-start;
           padding: 50px 0;
           max-width: 1200px;
           margin: 0 auto;
@@ -123,15 +122,33 @@
           align-items: center;
           flex-wrap: wrap;
         }
+
+        .link-text {
+          font-size: 14px;
+          line-height: 1.6;
+          color: #f0f0f0;
+          margin-left: 70px;
+          font-style: italic;
+          text-align: center;
+          justify-content: center;
+          align-items: center;
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+        }
+
 			</style>
 
 			<div class="container">
         <div class="earth"></div>
 				<div class="greeting">
-          PHAM ANH DUNG<br/>
+          PHAM ANH DUNG
         </div>
         <div class="description">
             <p class="description-text">Full-Stack Engineer building software solutions.</p>      
+        </div>
+         <div class="link-text">
+          dungpa.vercel.app
         </div>
 			</div>
 		</div>
