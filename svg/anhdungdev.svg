@@ -107,20 +107,52 @@
         }
 
         .description-text {
-          font-size: 24px;
-          line-height: 1.6;
-          color: #f0f0f0;
-          font-weight: 300;
+          font-size: 16px;
+          line-height: 1.8;
+          color: #c0c0c0;
+          font-weight: 400;
           letter-spacing: 0.5px;
           margin: 0;
+          display: flex;
+          flex-wrap: wrap;
+          gap: 6px;
         }
 
-        .skills {
-          display: inline-flex;
-          margin: 40px 0 0 70px; /* giữ cùng margin-left với phần khác */
-          gap: 15px;
-          align-items: center;
-          flex-wrap: wrap;
+        .tech-badge {
+          display: inline-block;
+          padding: 4px 10px;
+          border-radius: 20px;
+          font-size: 12px;
+          font-weight: 500;
+          letter-spacing: 0.3px;
+          border: 1px solid rgba(255, 255, 255, 0.15);
+          background: rgba(255, 255, 255, 0.06);
+          transition: all 0.3s ease;
+          white-space: nowrap;
+        }
+
+        .tech-badge.frontend {
+          border-color: rgba(97, 218, 251, 0.4);
+          color: #61dafb;
+        }
+
+        .tech-badge.backend {
+          border-color: rgba(104, 211, 145, 0.4);
+          color: #68d391;
+        }
+
+        .tech-badge.other {
+          border-color: rgba(251, 176, 59, 0.4);
+          color: #fbb03b;
+        }
+
+        .subtitle {
+          font-size: 18px;
+          color: #a0a0b0;
+          margin: 0 0 0 70px;
+          font-weight: 300;
+          letter-spacing: 2px;
+          text-transform: uppercase;
         }
 
         .link-text {
@@ -128,13 +160,23 @@
           line-height: 1.6;
           color: #f0f0f0;
           margin-left: 70px;
-          font-style: italic;
-          text-align: center;
-          justify-content: center;
-          align-items: center;
+          margin-top: 15px;
           display: flex;
-          flex-direction: column;
-          gap: 10px;
+          gap: 12px;
+          align-items: center;
+        }
+
+        .link-text a {
+          text-decoration: none;
+          padding: 6px 18px;
+          border-radius: 20px;
+          font-size: 13px;
+          font-weight: 500;
+          letter-spacing: 1px;
+          text-transform: uppercase;
+          background: linear-gradient(135deg, #1a1d5e, #0d7a7a);
+          color: #c0c8d0;
+          transition: opacity 0.3s ease;
         }
 
 			</style>
@@ -142,13 +184,24 @@
 			<div class="container">
         <div class="earth"></div>
 				<div class="greeting">
-          PHAM ANH DUNG
+          PHẠM ANH DŨNG
         </div>
+        <div class="subtitle">DEVELOPER VIETNAM</div>
         <div class="description">
-            <p class="description-text">Full-Stack Engineer building software solutions.</p>      
+            <div class="description-text">
+              <span class="tech-badge frontend">React.js</span>
+              <span class="tech-badge frontend">Next.js</span>
+              <span class="tech-badge frontend">Vue</span>
+              <span class="tech-badge backend">Nest.js</span>
+              <span class="tech-badge backend">Express.js</span>
+              <span class="tech-badge backend">Spring Boot</span>
+              <span class="tech-badge other">.NET</span>
+              <span class="tech-badge other">Golang</span>
+            </div>
         </div>
-         <div class="link-text">
-          <a href="https://dungpa.vercel.app" target="_blank">dungpa.vercel.app</a>
+        <div class="link-text">
+          <a href="https://www.linkedin.com/in/phamanhdungdev19/" target="_blank">LinkedIn</a>
+          <a href="https://dungpa.vercel.app" target="_blank">Curriculum Vitae</a>
         </div>
 			</div>
 		</div>
